@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+}
+
+body #banner {
+  background-image: url(./images/spaghetti-2931846_1920.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+body #banner .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body #banner .header img {
+  width: 50px;
+  height: 50px;
+  margin-left: 3%;
+  margin-top: 10px;
+}
+
+body #banner .header .nav {
+  display: flex;
+  margin-right: 10%;
+}
+
+body #banner .header .nav nav {
+  display: flex;
+  margin-top: 15px;
+}
+
+body #banner .header .nav ul {
+  list-style-type: none;
+}
+
+body #banner .header .nav nav ul li {
+  display: inline-block;
+}
+
+body #banner .header .nav nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+body #banner h1 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 8em;
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+body #banner h2,
+button {
+  color: white;
+  margin-left: 100px;
+  margin-top: -60px;
+}
+
+body #banner h2 {
+  font-size: 2em;
+}
+
+body #banner button {
+  background-color: rgb(63, 43, 176);
+  color: white;
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+}
+
+body #banner button:hover {
+  background-color: aqua;
+}
+
+body #banner button:active {
+  background-color: rgb(77, 247, 179);
+}
+
+body #about-us {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+body #about-us h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+body #about-us .column1 {
+  display: flex;
+  justify-content: center;
+}
+
+body #about-us .column2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body #about-us .column2 img {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+body #about-us .column1 .column2 .content1,
+.content2,
+.content3 {
+  width: 350px;
+  height: 350px;
+  margin: 30px;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+body #about-us .column1 .column2 .content1,
+.content2,
+.content3 h3 {
+  text-align: center;
+}
+
+body #team {
+  background-color: rgb(89, 12, 89);
+  width: auto;
+  height: 900px;
+}
+
+body #team h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+}
+
+body #team .haupt-team {
+  display: flex;
+  justify-content: space-evenly;
+} /*
+  body #team .haupt-team .team1,
+  .team2,
+  .team3,
+  .team4 {
+    width: 200px;
+    height: 400px;
+  }*/
+body #team .haupt-team .team1 {
+  width: 250px;
+  height: 580px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+body #team .haupt-team .team1 h4 {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team1 p {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team1 .box {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team2 {
+  width: 350px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+body #team .haupt-team .team2 h4 {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team2 p {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team2 .box {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team3 {
+  width: 301px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+body #team .haupt-team .team3 h4 {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team3 p {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team3 .box {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team4 {
+  width: 202px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+body #team .haupt-team .team4 h4 {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team4 p {
+  margin-left: 10px;
+}
+
+body #team .haupt-team .team4 .box {
+  margin-left: 10px;
+}
+/*------------------------*/
+body #dessert {
+  background-color: rgb(89, 12, 89);
+  width: auto;
+  height: 900px;
+}
+
+body #dessert h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+}
+
+body #dessert .haupt-team {
+  display: flex;
+  justify-content: space-evenly;
+} /*
+    body #dessert .haupt-team .team1,
+    .team2,
+    .team3,
+    .team4 {
+      width: 200px;
+      height: 400px;
+    }*/
+body #dessert .haupt-team .team1 {
+  width: 250px;
+  height: 450px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+body #dessert .haupt-team .team1 h4 {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team1 p {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team1 .box {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team2 {
+  width: 350px;
+  height: 750px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+body #dessert .haupt-team .team2 h4 {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team2 p {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team2 .box {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team3 {
+  width: 301px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+body #dessert .haupt-team .team3 h4 {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team3 p {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team3 .box {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team4 {
+  width: 202px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+body #dessert .haupt-team .team4 h4 {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team4 p {
+  margin-left: 10px;
+}
+
+body #dessert .haupt-team .team4 .box {
+  margin-left: 10px;
+}
+.box {
+  border: 1px solid violet;
+  color: violet;
+  width: 100px;
+}
+
+body #contact {
+  margin-left: 45%;
+}
+
+body #contact h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 2em;
+}
+
+body #contact input {
+  text-align: center;
+}
+
+body #contact label {
+  text-align: center;
+}
+
+body footer {
+  background-color: black;
+  width: 100%;
+  color: gray;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+body footer {
+  background-color: black;
+  width: 100%;
+  color: gray;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
